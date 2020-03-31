@@ -3,7 +3,9 @@
 
 ## fakelogit
 
-Generate fake logs to test logging applications
+Generate fake logs to test logging applications.
+
+> Thanks to [gofakeit](https://github.com/brianvoe/gofakeit)
 
 ### Options
 
