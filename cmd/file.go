@@ -55,7 +55,7 @@ func fileRun(cmd *cobra.Command, _ []string) {
 	}
 
 	for i := 0; i < count; i++ {
-		fakelogit := lib.NewLog(source, lib.LogTimeFormat())
+		fakelogit := lib.NewLog(source)
 		_, _ = fmt.Fprintln(f, fakelogit)
 		if err != nil {
 			fmt.Println(err)

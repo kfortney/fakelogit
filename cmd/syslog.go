@@ -62,7 +62,7 @@ func syslogRun(cmd *cobra.Command, _ []string) {
 	defer closeConnection(c)
 
 	for i := 0; i < count; i++ {
-		fakelogit := lib.NewLog(source, lib.LogTimeFormat())
+		fakelogit := lib.NewLog(source)
 		_, err := c.Write([]byte(fakelogit))
 		if err != nil {
 			fmt.Println("Error: ", err)

@@ -44,7 +44,7 @@ func printRun(_ *cobra.Command, _ []string) {
 	fmt.Println("------------------")
 
 	for i := 0; i < count; i++ {
-		fakelogit := lib.NewLog(source, lib.LogTimeFormat())
+		fakelogit := lib.NewLog(source)
 		fmt.Println(fakelogit + "\n")
 	}
 }

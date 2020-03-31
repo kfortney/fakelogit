@@ -3,16 +3,12 @@ package lib
 import (
 	"github.com/brianvoe/gofakeit"
 	"math/rand"
-	"time"
 )
 
 var alpha = "abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789"
 
 //RandomString generate random strings
 func RandomString(size int) string {
-
-	rand.Seed(time.Now().UTC().UnixNano())
-
 	buf := make([]byte, size)
 	for i := 0; i < size; i++ {
 		buf[i] = alpha[rand.Intn(len(alpha))]
