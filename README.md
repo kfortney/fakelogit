@@ -1,4 +1,5 @@
 ![Docker](https://github.com/kfortney/fakelogit/workflows/Docker/badge.svg?event=registry_package)
+![Lint, Test, Build, and Deploy](https://github.com/kfortney/fakelogit/workflows/Lint,%20Test,%20Build,%20and%20Deploy/badge.svg?event=release)
 
 ## fakelogit
 
