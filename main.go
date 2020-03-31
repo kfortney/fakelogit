@@ -19,7 +19,7 @@ import "github.com/kfortney/fakelogit/cmd"
 
 // Export project version
 var (
-	VERSION = "0.0.4"
+	VERSION = "0.0.5"
 )
 
 func main() {
