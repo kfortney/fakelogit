@@ -1,13 +1,27 @@
 ![Lint, Test, Build, and Deploy](https://github.com/kfortney/fakelogit/workflows/Lint,%20Test,%20Build,%20and%20Deploy/badge.svg?branch=master)
 ![Docker](https://github.com/kfortney/fakelogit/workflows/Docker/badge.svg?branch=master)
+[![go report card](https://goreportcard.com/report/github.com/kfortney/fakelogit)](https://goreportcard.com/report/github.com/kfortney/fakelogit)
 
-## fakelogit
+
+# Fakelogit
 
 Generate fake logs to test logging applications.
 
 > Thanks to [gofakeit](https://github.com/brianvoe/gofakeit)
 
-### Options
+## Installation
+
+### GO
+```bash
+go get -u github.com/kfortney/fakelogit
+```
+
+### Docker
+```
+docker run -it --rm docker.pkg.github.com/kfortney/fakelogit/fakelogit:0.0.5
+```
+
+## Options
 
 ```
 Usage:
