@@ -28,8 +28,8 @@ const (
 )
 
 //NewLog chooses new log source
-func NewLog(format string, t time.Time) string {
-	switch format {
+func NewLog(source string, t time.Time) string {
+	switch source {
 	case "rfc3164":
 		return NewRFC3164Log(t)
 	case "rfc5424":
