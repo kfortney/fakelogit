@@ -1,3 +1,9 @@
 module github.com/kfortney/fakelogit
 
 go 1.14
+
+require (
+	github.com/brianvoe/gofakeit v3.18.0+incompatible
+	github.com/spf13/cobra v0.0.7
+	github.com/spf13/viper v1.6.2
+)
