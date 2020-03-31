@@ -1,4 +1,3 @@
-![Go](https://github.com/kfortney/fakelogit/workflows/Go/badge.svg?branch=master)
 ![Docker](https://github.com/kfortney/fakelogit/workflows/Docker/badge.svg?event=registry_package)
 
 ## fakelogit
